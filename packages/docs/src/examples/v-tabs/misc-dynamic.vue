@@ -15,7 +15,7 @@
     <v-card-text class="text-center">
       <v-btn
         text
-        @click="length--"
+        @click="length > 0 ? length-- : ''"
       >
         Remove Tab
       </v-btn>
